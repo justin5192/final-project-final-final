@@ -1,0 +1,42 @@
+div {
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#intro_div {
+    color: black;
+    border: 5px solid black;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: palegreen;
+  }
+
+#graph_div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    background-color: paleturquoise;
+    border: 5px solid black;
+}
+
+#button {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 5px solid black;
+    color: black;
+    background-color: lightblue;
+    font-size: 15px;
+  }
+
+  #algorithm_selection_div{
+    margin-left: 30%;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Traveling Salesperson</title>
+  <link rel="stylesheet" href="visualization_css.css">
+</head>
+<body>
+  <div id="intro_div" class="green_background">
+    <h1>The traveling salesperson:</h1>
+    <p>The Traveling Salesperson Problem is an algorithmic challenge in which one tries to find the shortest possible route 
+      that visits a set of points once and returns to the origin point. Here we will look at paths derived from 3 different algorithms.
+    </p>
+  </div>
+
+  <!-- based on code from video https://www.youtube.com/watch?v=RSLHrmDL4kU&t=2s
+  <script>
+    function run_wasm() {
+      var result = Module.ccall(
+        "main",
+        "number",
+        null,
+        null
+      );
+      console.log(result);
+    }
+  </script>
+
+  <button onclick="run_wasm()">Trigger</button>-->
+
+  <script src="output.js"></script> <!-- Webassembly code -->
+
+
+<!--
+  <div id="algorithm_selection_div">
+    <input type="button" value="Genetic algorithm" id="button" onclick="select_genetic()" >
+    <input type="button" value="Annealing algorithm" id="button" onclick="select_annealing()" >
+    <input type="button" value="Branch algorithm" id="button" onclick="select_branch()">
+    <input type="button" value="Christofides algorithm" id="button" onclick="select_christofides()">
+
+  </div>-->
+
+
+
+  <div id="graph_div"></div>
+
+  <script src="output.js"></script>
+  <!-- D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Visualization script -->
+  <script src="visualization.js"></script>
+</body>
+</html>
